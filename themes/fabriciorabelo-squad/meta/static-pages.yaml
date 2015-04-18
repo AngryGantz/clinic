@@ -1,0 +1,19 @@
+static-pages:
+    uslugi:
+        uslugi-dermato-kosmetologa:
+            uslugi-dermato-kosmetologa-botoks: {  }
+            uslugi-dermato-kosmetologa-glikolevyj-piling-50: {  }
+        uslugi-uslugi-sosudistogo-hirurga:
+            uslugi-uslugi-sosudistogo-hirurga-varikoznaya-bolezn: {  }
+        uslugi-uslugi-otorinolaringologa:
+            uslugi-otorinolaringolog-diagnostika-sluha: {  }
+            uslugi-otorinolaringolog-kohlearnaya-implantaciya: {  }
+            uslugi-uslugi-otorinolaringologa-otit: {  }
+            uslugi-uslugi-otorinolaringologa-otit-u-detej: {  }
+            uslugi-uslugi-otorinolaringologa-skrining-sluha-u-novorozhdennyh: {  }
+            uslugi-uslugi-otorinolaringologa-sluhoprotezirovanie-detej: {  }
+            uslugi-uslugi-otorinolaringologa-timpanoplastika-operaciya-na-srednem-uhe: {  }
+        uslugi-uslugi-ginekologa:
+            uslugi-uslugi-ginekologa-gigiena-zhenshiny: {  }
+        uslugi-uslugi-detskogo-hirurga:
+            uslugi-uslugi-detskogo-hirurga-obshaya-informaciya: {  }

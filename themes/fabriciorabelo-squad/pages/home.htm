@@ -1,0 +1,182 @@
+title = "Home"
+url = "/"
+layout = "default"
+hidden = "0"
+==
+<!-- Section: intro -->
+<section id="intro" class="intro">
+
+    <div class="slogan">
+        {% content 'welcome.htm' %}
+    </div>
+    <div class="page-scroll">
+        <a href="#service" class="btn btn-circle">
+            <i class="fa fa-angle-double-down animated"></i>
+        </a>
+    </div>
+</section>
+<!-- /Section: intro -->
+
+
+<!-- <section id="about" class="home-section text-center"> -->
+<!--     <div class="heading-about">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="wow bounceInDown" data-wow-delay="0.4s">
+                <div class="section-heading">
+                <h2>Наша <span class="title-highlight">Команда</span></h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+ -->
+ <div class="container">
+ <div class="row hidden-xs hidden-sm">
+     
+ 
+ {% partial '_numbers' %}
+ </div>
+ </div>
+
+<!-- </section> -->
+
+
+    {% partial '_service-list' %}
+
+<!-- Section: about -->
+
+<section id="about" class="home-section text-center">
+    <div class="heading-about">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="wow bounceInDown" data-wow-delay="0.4s">
+                <div class="section-heading">
+                <h2>Наша <span class="title-highlight">Команда</span></h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+ {% partial '_team-usq-list' %}
+
+</section>
+<!-- /Section: about -->
+
+
+
+
+
+
+<!-- Section: contact -->
+<section id="contact" class="home-section text-center">
+    <div class="heading-contact">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="wow bounceInDown" data-wow-delay="0.4s">
+                <div class="section-heading">
+                 <h2>Спросите <span class="title-highlight">и мы ответим</span></h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+            <hr class="marginbot-50">
+        </div>
+    </div>
+<div class="row">
+    <div class="col-lg-8">
+        <div class="boxed-grey">
+            <form id="contact-form">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">
+                            Имя</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ваше имя" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">
+                            E-Mail адрес</label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="Укажите email" required="required" /></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">
+                            Тема</label>
+                        <select id="subject" name="subject" class="form-control" required="required">
+                            <option value="na" selected="">Выберете:</option>
+                            <option value="service">О ценах на услуги</option>
+                            <option value="suggestions">Консультация специалиста</option>
+                            <option value="product">Общая информация</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">
+                            Сообщение</label>
+                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                        Отправить сообщение</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="widget-contact">
+            <h5>Наши координаты</h5>
+
+            <address> 
+              <strong>г. Алматы</strong><br>
+              м-он Баганашил<br>
+              ул. Санаторная, 14<br>
+              <abbr title="Телефон">Т:</abbr> (727) 269-64-60
+            </address>
+
+            <address>
+              <strong>Email</strong><br>
+              <a href="mailto:#">email.name@example.com</a>
+            </address>
+            <address>
+              <strong>Мы в социальных сетях</strong><br>
+                    <ul class="company-social">
+                        <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                        <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+            </address>
+
+        </div>
+    </div>
+</div>
+
+    </div>
+</section>
+<!-- /Section: contact -->

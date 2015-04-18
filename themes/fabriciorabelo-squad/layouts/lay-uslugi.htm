@@ -1,0 +1,146 @@
+description = "Лайаут для раздела Услуг"
+
+[staticPage]
+
+
+[staticMenu staticMenuUslugi]
+code = "uslugi"
+==
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ this.theme.site_name }} - {{ this.page.title }}</title>
+
+    <!-- Metadata -->
+    <meta name="title" content="{% if this.page.meta_title %}{{ this.page.meta_title }}{% else %}{{ this.theme.meta_title }}{% endif %}">
+    <meta name="keywords" content="{{ this.theme.meta_keywords }}">
+    <meta name="description" content="{% if this.page.meta_description %}{{ this.page.meta_description }}{% else %}{{ this.theme.meta_description }}{% endif %}">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ 'assets/css/bootstrap.min.css'|theme }}" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="{{ 'assets/font-awesome/css/font-awesome.min.css'|theme }}" rel="stylesheet" type="text/css">
+    <link href="{{ 'assets/css/animate.css'|theme }}" rel="stylesheet" />
+
+    <!-- Squad theme CSS -->
+    
+
+  
+    
+    
+    <link href="{{ 'assets/css/shortcodes.css'|theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/usquare_style.css'|theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/usquare.css'|theme }}" rel="stylesheet">
+
+    <link href="{{ 'assets/css/angry.css'|theme }}" rel="stylesheet">
+
+   <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Playfair+Display%7COpen+Sans+Condensed%3A300%7COpen+Sans%7CShadows+Into+Light%7CMuli%7CDroid+Sans%7CArbutus+Slab%7CAbel&#038;ver=3.5.1' type='text/css' media='all' />
+
+     <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
+    <link href="{{ 'assets/color/default.css'|theme }}" rel="stylesheet">
+    <!--[if lte IE 9]>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Extra styles -->
+    {% styles %}
+
+    <!-- Inline styles -->
+    <style>{% placeholder inline_styles %}</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="load"></div>
+    </div>
+
+    {% partial 'topmenu-inside' %}
+    
+    
+<section id="uslugi">    
+
+
+
+    <div class="container">
+
+<div class="alert alert-success alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  <strong>Сюда</strong> по желанию можно воткнуть что-нибудь красявое - слайдер, картинку, рекламу акции на услуги и т.д.
+</div>
+
+	<div class="row">
+		<div class="col-xs-12 text-center">
+			<h1>
+				<span class="label label-info page-title">Диагностика и лечение</span>
+			</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3">
+		
+		    {% partial 'sidemenu-uslugi' items=staticMenuUslugi.menuItems %}
+		
+		</div>
+		<div class="col-sm-9">		
+      
+            <div class="page-header">
+  <h1>      {{ staticPage.title }}</h1>
+</div>
+
+             {% page %}
+    
+    	</div>
+
+	</div>
+</div>
+</section>
+    
+    
+    
+    
+    
+       {% partial 'footer' %}
+
+    <!-- Core JavaScript Files -->
+    <script src="{{ 'assets/js/jquery.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery.easing.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery.scrollTo.js'|theme }}"></script>
+    <script src="{{ 'assets/js/wow.min.js'|theme }}"></script>]
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ 'assets/js/custom.js'|theme }}"></script>
+
+    <script src="{{ 'assets/js/jquery.usquare.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery.mCustomScrollbar.min.js'|theme }}"></script>width
+    
+
+    <!-- OctoberCMS Ajax Framework and extras -->
+    {% framework extras %}
+
+    <!-- Extra -->
+    {% scripts %}
+
+    <!-- Inline scripts -->
+    <script>{% placeholder inline_scripts %}</script>
+    
+
+
+                                    <script> (function ($) {
+                                        jQuery(document).ready(function () {
+                                           jQuery(".usquare_module_wrapper").uSquare({ opening_speed: 300, closing_speed: 500, easing: "swing" });
+                                        });
+                                    })(jQuery);
+                                 </script>
+
+
+</body>
+</html>

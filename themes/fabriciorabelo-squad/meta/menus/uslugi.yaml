@@ -1,0 +1,9 @@
+name: Услуги
+items:
+    -
+        title: Услуги
+        nesting: '1'
+        type: static-page
+        code: uslugi
+        reference: uslugi
+        replace: '1'

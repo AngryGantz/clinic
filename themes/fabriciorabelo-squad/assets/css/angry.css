@@ -214,3 +214,22 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   background-color: #5BC0DE;
   border-color: #5BC0DE;
 }
+
+.text-primary {
+  color: #5BC0DE;
+  vertical-align: middle;
+}
+
+.team-panel{
+  padding-left: 50px;
+  font-size: 26px;
+  
+}
+.panel-heading{
+
+}
+
+.panel-title {
+  display: table-cell;
+
+}

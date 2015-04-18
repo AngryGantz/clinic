@@ -17,3 +17,6 @@ static-pages:
             uslugi-uslugi-ginekologa-gigiena-zhenshiny: {  }
         uslugi-uslugi-detskogo-hirurga:
             uslugi-uslugi-detskogo-hirurga-obshaya-informaciya: {  }
+    team:
+        team-otorinolaringologi:
+            team-otorinolaringologi-mihajlov-mihail-gennadevich: {  }

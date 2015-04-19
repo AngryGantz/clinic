@@ -299,16 +299,21 @@ hr {
 /* ===========================
 --- Intro
 ============================ */
+      
+.parallax-window {
+    width:100%;
+    min-height: 100%;
+    background: transparent;
+}      
 
 .intro {
   width:100%;
   position:relative;
-
-  background: url(../images/bgm1.jpg) no-repeat top center;
+  /*background: url(../images/bgm1.jpg) no-repeat top center;*/
 }
 
 #intro.intro {
-  padding:20% 0 0 0;
+  padding:25% 0 0 0;
 }
 
 .intro .slogan {

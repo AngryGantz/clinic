@@ -4,7 +4,7 @@ layout = "default"
 hidden = "0"
 ==
 <!-- Section: intro -->
-<section id="intro" class="intro">
+<section id="intro" class="intro parallax-window" data-parallax="scroll" data-image-src="{{ 'assets/images/bgm1.jpg' |theme }}">
 
     <div class="slogan">
         {% content 'welcome.htm' %}
@@ -35,13 +35,33 @@ hidden = "0"
         </div>
     </div>
  -->
+ 
+<section id="numbers" class="home-section text-center">
+    <div class="heading-about">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="wow bounceInDown" data-wow-delay="0.4s">
+                <div class="section-heading">
+                <h2>Наши <span class="title-highlight">Преимущества</span></h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
  <div class="container">
  <div class="row hidden-xs hidden-sm">
-     
- 
  {% partial '_numbers' %}
  </div>
  </div>
+
+</section>
+
+
 
 <!-- </section> -->
 
